@@ -1,0 +1,81 @@
+*{
+margin:0;}
+
+h2{
+color:white;
+margin-left:0.2em;
+margin-bottom: 0.9em;}
+
+form{
+	position:absolute;
+	left: 40em;
+}
+
+fieldset div{
+	display:flex;
+	justify-content:space-between;
+	width: 18em;
+	margin-bottom:0.5em;
+	color:white;}
+
+fieldset{
+border:0;
+background:black;
+border-radius:20px;}
+
+img{
+width:400px;
+height:400px;
+margin:auto;}
+
+#zapros{
+border-radius:10px;
+margin-left: 17.6em;
+margin-top: 0.5em;}
+
+.mods1{
+width:50vw;
+height:50vh;
+background:black;
+position:fixed;
+top: 30%;
+left: 24.5em;
+opacity:0.9;
+}
+
+.mods2{
+display:flex;
+flex-direction:column;
+justify-content:center;
+background:red;
+width:200px;
+height:50px;
+position:fixed;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+
+.mods3{
+width:100vw;
+height:100vh;
+background:black;
+position:fixed;
+opacity:0.9;
+}
+
+.mods4{
+display:flex;
+flex-direction:column;
+justify-content:center;
+background:red;
+width:200px;
+height:50px;
+position:fixed;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+
+p{
+margin: auto;}

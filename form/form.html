@@ -1,0 +1,41 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Форма</title>
+	<link rel="stylesheet" href="css/main_form.css">
+	</head>
+<body>
+<h1>Анкета посетителя ресторана</h1>
+<form name="zapoln" id="forms">
+<fieldset>
+<legend>КОНТАКТНАЯ ИНФОРМАЦИЯ</legend>
+<div><label>Имя</label><input type="text" class="log" id="log"></div>
+<div><label>Телефон</label><input type="tel" class="telph" id="telph" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"></div>
+<div><label>Email</label><input type="email" class="email"></div>
+<div><label>Дата посещения</label><input type="date" class="dataPost"></div>
+</fieldset>
+
+<fieldset>
+<legend>ПЕРСОНАЛЬНАЯ ИНФОРМАЦИЯ</legend>
+<div><label>Возраст</label><input type="number" min="1" max="100" class="vozrost"></div>
+<div class="kuxn"><label>Любимая кухня</label><select id="sel"><option>Русская</option><option>Итальянская</option></select></div>
+<div><label>Какие блюда Вы хотели бы увидеть в меню?</label><textarea class="pozhelania"></textarea></div>
+</fieldset>
+
+<fieldset>
+<legend>ОЦЕНКА НАШЕГО ЗАВЕДЕНИЯ</legend>
+<div>Почему Вы выбрали наше заведение?</div>
+<div><input type="radio" name="chose1" value="Недалеко от дома/работы">Недалеко от дома/работы</div>
+<div><input type="radio" name="chose1" value="Увидел рекламу">Увидел рекламу</div>
+<div><input type="radio" name="chose1" value="Посоветовали">Посоветовали</div>
+<div><input type="radio" name="chose1" value="Оптимальное соотношение цены и качества">Оптимальное соотношение цены и качества</div>
+<div>Вы будете рекомендовать наше заведение своим знакомым?</div>
+<div><input type="radio" name="chose2" value="Да">Да</div>
+<div><input type="radio" name="chose2" value="Нет">Нет</div>
+</fieldset>
+<input type="button" value="Отправить" class="cnopka" onclick="cliks()">
+</form>
+</div>
+<script src="js/script_form.js"></script>
+</body>
+</html>

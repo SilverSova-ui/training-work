@@ -1,0 +1,48 @@
+.black, .white{
+	width: 5em;
+	height: 5em;}
+
+#table{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0.5em solid black;
+    width: 40em;
+    height: 40em;
+    background: #F4A460;
+    margin-top:2em;
+}
+
+img{
+	margin:auto;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    width: 4em;
+}
+
+#lotki{
+    width:50%;
+    height: 50%;
+    margin-top:0.5em;
+    display:flex;
+}
+
+.lotok_black, .lotok_white{
+    width: 25em;
+    height: 20em;
+    background:silver;
+    border:0.5em solid black;
+    text-align: center;
+}
+
+#counter_white, #counter_black{
+    margin-top: 1em;
+}
+
+.lotok_black{
+    margin-left:0.5em;
+}
+
+.active{
+    background: green;
+}
+
