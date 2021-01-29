@@ -1,0 +1,324 @@
+@media (min-width:0px) and (max-width:991px){
+header{
+	background: linear-gradient(to bottom, #35B5E7, #FFF);
+}
+
+.form_textarea+input:first-of-type{
+position: relative;
+top: 1em;
+left: 35%;
+}
+
+.p-vozvrat{
+padding: 0 !important;
+}
+
+.navbar{
+	justify-content:normal;
+}
+
+.header_text_1 p:nth-of-type(2), .header_text_2 p:nth-of-type(2), .container_block_2 .content_block_1 p:nth-of-type(2), .container_block_3 .content_block_2 p:nth-of-type(2), 
+.slider + .empty_block_2 + div p, .tourist_container p:nth-of-type(2), .text_result p:first-of-type, .video_content div, .text_Memorial p:nth-of-type(2), .marks, 
+.blog_content p:nth-of-type(2), .blogs p:first-of-type, .content_attachment p:first-of-type, .Partner_text p:nth-of-type(2), .partner_content p:first-of-type, .Message_text p:nth-of-type(2),.header_text_1 p:nth-of-type(3) {
+font-size: 0.87em;
+}
+
+button{
+	font-size:0.7em
+}
+
+
+.header_text_2 {
+	margin-top:0;
+}
+
+.header_text_2 div > div:nth-of-type(2){
+	margin:auto;
+}
+
+.cards_up li, .cards_Packeg ul li {
+	width:auto;
+	height:auto;
+	margin: 1em auto;
+}
+
+.cards_Packeg ul li {
+	margin: 1em auto;
+}
+
+.cards_Packeg ul li img {
+margin-top:1em;
+}
+
+.tourist_container p:nth-of-type(3),.block_text {
+    width: auto;
+}
+
+.tourist_container + div img {
+width:28.5em;
+}
+
+.text_result {
+	margin-bottom:2em;
+}
+
+.content_Memorial {
+border-radius: 0px 76% 37% /0 0 6% 55%;
+height:35em;
+}
+
+.blogs_content .col-xl-5 img,.blogs_content .col-xl-4 img{
+width: 8em;
+height: 8em;
+}
+
+.col-4 img{
+	margin-top:4em;
+	width: 10em;
+}
+
+.content_attachment p:nth-of-type(2){
+width: 15em;
+}
+
+.button_attachment button{
+font-size:0.5em;
+}
+
+.Partner_img{
+width: 17em;
+margin:0 auto;
+}
+
+.Partner_img img{
+margin-top: 1.5em;
+}
+
+.container_partner .bg_fons {
+    bottom: 38.063em;
+}
+
+.form_input input, .form_textarea textarea {
+margin: 1em auto 0;
+}
+
+.content_choose,.text_info p:first-of-type{
+	margin:1em auto;
+}
+
+.header_text_2 div:nth-of-type(2).button_header{
+	width:auto;
+}
+.content_choose p:nth-of-type(2){
+width:auto;
+}
+
+.cards_up img {
+width: 15.5em;
+height: 17em;
+}
+
+.content_choose {
+	width: 21em;
+}
+
+.content_choose p:first-of-type strong {
+    font-size: inherit;
+}
+}
+
+@media (min-width:576px) and (max-width:991px){
+.p-vozvrat{
+	padding:.5rem 1rem !important;
+}
+}
+
+@media (min-width:768px) and (max-width:991px){
+.Partner_img{
+	width: auto;
+}
+
+.form_textarea+input:first-of-type{
+position: relative;
+top: 1em;
+left: 40%;
+}
+
+.continent_content > div{
+width: auto;
+}
+
+.content_choose p:first-of-type strong {
+margin-left: 1em;
+}
+
+.p-vozvrat{
+padding:.5rem 1rem !important;
+}
+
+
+.Partner_img img{
+width: 6em;
+margin:0 auto;
+}
+}
+
+@media (min-width:992px) and (max-width:1199px){
+.cards_Packeg ul li {
+margin: 0.8em auto;
+}
+
+.form_textarea+input:first-of-type{
+left: 77.5%;
+}
+
+.continent_content > div{
+	width: 30em;
+}
+
+.prev{
+	position:inherit;
+}
+
+.cards_up img {
+ width: 21em;
+}
+
+.cards_up li{
+    width: auto;
+    height: auto;
+    margin: 0.8em 0.8em;
+}
+
+.content_choose {
+width:auto;
+}
+
+.tourist_container + div img {
+width:50em;
+}
+
+.video_content div {
+width: 35%;
+top: 57%;
+left: 24%;
+}
+
+.col-4 img {
+width: 25em;
+}
+
+.text_info p:first-of-type {
+    margin: 1em auto;
+}
+
+.video_content div:nth-of-type(2) {
+    bottom: 3em;
+}
+
+.video_content .block_height{
+	height:17em;
+}
+}
+
+@media (min-width:1200px) and (max-width:1844px){
+nav>.col-xl-2:first-of-type{
+	max-width:0;
+}
+
+.form_textarea+input:first-of-type{
+left: 73.5%;
+}
+
+.container_block_1 .col-xl-2:first-of-type,.Feature_Trip div>.col-xl-2:first-of-type{
+flex: 0 0 8.333333%;
+max-width: 8.333333%;
+}
+
+.block_text + div .col-xl-1{
+flex: 0 0 16.666667%;
+max-width: 16.666667%;
+}
+
+.block_text + div .col-xl-5{
+flex: 0 0 33.333333%;
+max-width: 33.333333%;
+}
+
+.cards_Packeg ul li {
+	margin: 0.8em auto;
+}
+
+.content-info .col-xl-4{
+flex: 0 0 29.333%;
+max-width: 30.333%;
+padding: 0;
+}
+
+.d-none_1200{
+	display:none;
+}
+
+.container_block_2 .col-xl-8,.Best_Tourist .col-xl-8,.result_content .col-xl-8,.empty_block_1+div .col-xl-8,
+.empty_block_2+div .col-xl-8{
+flex-basis: 0;	
+flex-grow: 1;
+max-width: 100%;
+flex:none;
+}
+
+.content_choose{
+margin: 1em auto;
+}
+
+.next{
+margin-left:5em;
+}
+
+.flex-xl-row{
+	flex-direction:column !important;
+}
+
+.tourist_container + div img {
+    width: 50em;
+}
+
+.video_content div:nth-of-type(2) {
+    bottom: 3em;
+
+}
+
+.video_content .block_height{
+	height:17em;
+}
+}
+
+@media (min-width:1200px) and (max-width:1643px){
+.cards_up li:nth-of-type(3){
+margin-top:4em;
+}
+}
+
+@media (min-width:1514px) and (max-width:1844px){
+.content_instragram img:nth-of-type(4) {
+    right: 19em;
+    top: 3em;
+    left: auto;
+    bottom: auto;
+}
+
+nav>.col-xl-2:first-of-type{
+flex: 0 0 7.667%;
+max-width: 7.667%;
+}
+
+.form_textarea+input:first-of-type{
+left: 68.5%;
+}
+}
+
+@media (min-width:1783px) and (max-width:1844px){
+.video_content .block_height{
+	height:23em;
+} 
+}
